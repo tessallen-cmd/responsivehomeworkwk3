@@ -1,8 +1,5 @@
 
- @media(max-width:600px){
-image{
-    display:none;
-}
+ 
  
 
 
@@ -16,6 +13,11 @@ body {
   margin-top: 100px;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
 h1,
 h2,
 h3 {
